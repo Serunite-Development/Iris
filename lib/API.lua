@@ -81,6 +81,8 @@ return function(Iris: Types.Iris)
     ]=]
     Iris.Window = wrapper("Window")
 
+    Iris.Frame = wrapper("Frame")
+
     --[=[
         @function SetFocusedWindow
         @within Iris
